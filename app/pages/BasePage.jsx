@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from 'classnames/bind';
 
-import Game from '../containers/Game';
+import Game from '../components/Game';
 import styles from './scss/base-page.scss';
 
 const cx = classNames.bind(styles);
