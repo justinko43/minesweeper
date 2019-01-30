@@ -13,3 +13,20 @@
 body {
   margin: 0;
 }
+
+.board {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: grey;
+  margin: 10px;
+}
